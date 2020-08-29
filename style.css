@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.studentProfileInfoWrap{
+    margin: 0 auto;
+    padding: 30px 0;
+    background:blanchedalmond;
+}
+.studentProfileInfoGroups{
+    max-width: 1434px;
+    width: 100%;
+    margin:0 auto;
+}
+.studentProfileInfoGroups ul{
+    list-style-type:none;    
+    padding: 0;
+    margin:0;
+}
+.studentProfileInfoGroupsslide{
+    box-sizing: border-box;
+    min-height: 197px;
+    width: 100%;
+    display: flex;
+    border:1px solid #000;
+}
+.studentProfileInfoGroupsslide p{
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+    padding: 0 0px;
+    text-align: left;
+}
+.studentProfileInfoGroups  ul li span{
+   float: right;
+}
+.studentProfileInfoGroups ul li a {
+    display: block;
+    clear: both;
+    font-size: 14px;
+    line-height: 17px;
+    color:#1976A1;
+    font-weight: bold;
+    text-decoration:none;
+}
+li.orbit-slide{
+    display: inline;
+}
+.studentProfilegroupInfo{
+    min-height: 120px;
+}
+.studentProfilegroupImg,
+.studentProfilegroupPost{
+    display: inline-block;
+    padding: 0 0px;
+}
+.studentProfilegroupImg{
+    float: left;
+    width: 30%;
+}
+.studentProfilegroupPost{
+    width: 70%;
+}
+.studentProfilegroupImg img{ 
+    width: 68px;
+    max-width: 100%;
+}
+.studentProfilegroupPost > p{
+    padding: 0 5px 0 10px;
+    margin:0;
+}
+.studentProfilegroupPost h3,
+ul li .studentProfilegroupPost > p{
+    padding: 0 5px 0 10px;   
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.studentProfilegroupPost h3{
+    margin:0 0 12px 0;
+    color:#000;
+    font-size: 16px;
+    line-height: 19px;
+}
+ul li .studentProfilegroupPost > p{
+    color:#555555;
+}
+.studentProfileBar{
+    width: 90%;
+    background: seagreen;
+    border-radius: 4px;
+    margin:10px 0 0 0;
+    height: 10px;
+}
+ul.comment__choise{
+    width: 120px;
+    margin: 18px auto 0 auto;
+}
+ul.comment__choise >li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background: #1976A1;
+    margin:0 10px;
+}
+ul.comment__choise >li.slick-active{
+    background: red;
+}
+.comment__choise li > button{
+    display: none;
+}
+.slick-dots li{
+    width: 20px !important;
+}
+@media (min-width:700px){
+    .studentProfileInfoGroups  ul li{
+        width: 49.7%;
+        display: inline-block;
+    }
+}
+
+@media (min-width:1024px){
+    .studentProfileInfoGroups  ul li{
+        margin:0 0.75%;
+        display: inline-block;
+        width: 100%;
+    }
+    .studentProfileInfoGroupsslide{
+        width: 25%;
+        margin:0;
+        float: left;
+        display: inline-block;
+        border: 1px solid #EFEFEF;
+        padding: 16px 20px;
+        border-radius: 9px;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.2);
+    }
+}
